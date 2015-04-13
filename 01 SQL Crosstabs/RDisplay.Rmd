@@ -1,0 +1,29 @@
+---
+title: "DV_TableauProject2"
+output: html_document
+---
+
+Our dataset is compiled of data from the Titanic and details about the passengers.
+
+**members:** Andrea Curo, Dora Cheng, Sonam Shah
+
+#Head subset of data
+```{r fig.width=10, fig.height=10}
+source("../01 SQL Crosstabs/data.R", echo= TRUE)
+```
+#Rank fare paid within a class
+```{r fig.width=100, fig.height=10}
+source("../01 SQL Crosstabs/data_rank.R", echo= TRUE)
+```
+#Use last value to find the max fare in a class and the difference between the max
+```{r fig.width=100, fig.height=10}
+source("../01 SQL Crosstabs/data_difference.R", echo= TRUE)
+```
+#Nth Value
+```{r fig.width=100, fig.height=10}
+source("../01 SQL Crosstabs/data_nthvalue.R", echo= TRUE)
+```
+#Cume_dist
+```{r fig.width=100, fig.height=10}
+source("../01 SQL Crosstabs/data_cumedist.R", echo= TRUE)
+```
