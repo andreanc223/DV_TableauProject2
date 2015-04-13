@@ -19,11 +19,11 @@ source("../01 SQL Crosstabs/data_rank.R", echo= TRUE)
 ```{r fig.width=100, fig.height=10}
 source("../01 SQL Crosstabs/data_difference.R", echo= TRUE)
 ```
-#Nth Value
+#Nth Value - second highest fare for each class
 ```{r fig.width=100, fig.height=10}
 source("../01 SQL Crosstabs/data_nthvalue.R", echo= TRUE)
 ```
-#Cume_dist
+#Cumalitive distance to the highest far in each class
 ```{r fig.width=100, fig.height=10}
 source("../01 SQL Crosstabs/data_cumedist.R", echo= TRUE)
 ```
